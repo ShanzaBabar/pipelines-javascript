@@ -1,8 +1,5 @@
 #!/bin/bash
  
-# Navigate to your Node.js application directory
-cd /path/to/your/node/app
- 
 # Pull the latest changes from the Git repository
 git pull origin main  # or use $BRANCH variable if specified in Jenkins parameter
  
