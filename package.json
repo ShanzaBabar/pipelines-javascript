@@ -20,8 +20,8 @@
     "nyc": "^12.0.2" 
   },
   "scripts": {
-    "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml"
-    "start": "node server.js"    
-    "deploy": "your-deployment-script.sh" 
+    "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml",
+    "start": "node server.js",   
+    "deploy": "your-deployment-script.sh"
   }
 }
