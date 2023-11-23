@@ -21,5 +21,9 @@
   },
   "scripts": {
     "build": "nyc --reporter=cobertura --reporter=html ./node_modules/.bin/mocha tests/**/*.js --reporter mocha-junit-reporter --reporter-options mochaFile=./TEST-RESULTS.xml"
+    "start": "node server.js"    
+    "deploy": "your-deployment-script.sh" 
   }
+  
 }
+{  "name": "your-node-app",  "version": "1.0.0",  "scripts": {    "start": "node your-app-entry-file.js",    "deploy": "your-deployment-script.sh"    // Add other scripts as needed  },  "dependencies": {    // Your dependencies here  }}
